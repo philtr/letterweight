@@ -1,0 +1,6 @@
+== Letterweight
+
+The widths are completely arbitrary since I could not find a resource to give me
+the average widths for each letter across the most common fonts. If you care to
+calculate them yourself or if you feel a width is incorrect feel free to submit
+an issue or pull request.
