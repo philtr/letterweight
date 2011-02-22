@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "letterweight"
   gem.homepage = "http://github.com/philtr/letterweight"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Estimates the length of a string in em units."
+  gem.description = "Estimates the length of a string in em units. Useful to calculate the apparent length of a string when using a variable-width font."
   gem.email = "phillip@balcomagency.com"
   gem.authors = ["Phillip Ridlen"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
