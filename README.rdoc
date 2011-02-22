@@ -1,0 +1,36 @@
+= letterweight
+
+Estimates the length of a string in em units. Useful to calculate the apparent
+length of a string when using a variable-width font.
+
+The widths are completely arbitrary since I could not find a resource to give me
+the average widths for each letter across the most common fonts. If you care to
+calculate them yourself or if you feel a width is incorrect feel free to submit
+an issue or pull request.
+
+== Usage
+
+In your Gemfile
+
+  gem 'letterweight', '0.5'
+
+In your code:
+
+  "This is a sentence I'd like to measure".to_em # => 20.5425
+  "MMMMMMMMMM".to_em # => 10.0
+
+== Contributing to letterweight
+
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+== Copyright
+
+Copyright (c) 2011 Phillip Ridlen. See LICENSE.txt for
+further details.
+
