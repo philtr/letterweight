@@ -12,7 +12,7 @@ an issue or pull request.
 
 In your Gemfile
 
-  gem 'letterweight', '0.1.1'
+  gem 'letterweight', '0.1.2'
 
 In your code:
 
