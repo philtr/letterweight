@@ -7,9 +7,9 @@ module Letterweight
   end
 
   def self.width(letter)
-    return self::length(l) if letter.length > 1
+    return self::length(letter) if letter.length > 1
     case letter
-    when '' then return 0.0
+    when ''  then return 0.00
     when 'a' then return 0.67
     when 'b' then return 0.67
     when 'c' then return 0.67
@@ -22,7 +22,7 @@ module Letterweight
     when 'j' then return 0.67
     when 'k' then return 0.67
     when 'l' then return 0.31
-    when 'm' then return 4
+    when 'm' then return 1.00
     when 'n' then return 0.67
     when 'o' then return 0.67
     when 'p' then return 0.67
