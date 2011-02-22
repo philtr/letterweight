@@ -31,6 +31,4 @@ In your code:
 
 == Copyright
 
-Copyright (c) 2011 Phillip Ridlen. See LICENSE.txt for
-further details.
-
+Copyright (c) 2011 Phillip Ridlen. See LICENSE.txt for further details.
