@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{letterweight}
-  s.version = "0.1.3"
+  s.version = "0.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Phillip Ridlen"]
-  s.date = %q{2011-02-22}
+  s.date = %q{2011-02-25}
   s.description = %q{Estimates the length of a string in em units. Useful to calculate the apparent length of a string when using a variable-width font.}
   s.email = %q{phillip@balcomagency.com}
   s.extra_rdoc_files = [
