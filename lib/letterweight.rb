@@ -18,10 +18,10 @@ module Letterweight
     when 'f' then return 0.31
     when 'g' then return 0.67
     when 'h' then return 0.67
-    when 'i' then return 0.31
+    when 'i' then return 0.26
     when 'j' then return 0.67
     when 'k' then return 0.67
-    when 'l' then return 0.31
+    when 'l' then return 0.26
     when 'm' then return 1.00
     when 'n' then return 0.67
     when 'o' then return 0.67
@@ -62,7 +62,7 @@ module Letterweight
     when 'X' then return 0.80
     when 'Y' then return 0.80
     when 'Z' then return 0.80
-    when ' ' then return 0.38
+    when ' ' then return 0.33
     when ',' then return 0.31
     when '.' then return 0.31
     when ';' then return 0.31
